@@ -1,0 +1,12 @@
+.value {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+}
+.valueMax {
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+}
