@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './App.module.css';
-import Count from "./Count";
-import Button from "./Button";
+import Counter from "./Counter/Counter";
 
 class App extends React.Component {
 
@@ -24,8 +23,7 @@ class App extends React.Component {
     render = () => {
         return (
             <div className={style.app}>
-                <Count state={this.state}/>
-                <Button reset={this.reset} increment={this.increment} state={this.state}/>
+                <Counter state={this.state} reset={this.reset} increment={this.increment}/>
             </div>
         )
     }

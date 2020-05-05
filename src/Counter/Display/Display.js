@@ -1,7 +1,7 @@
 import React from 'react';
-import style from './Count.module.css';
+import style from './Display.module.css';
 
-class Count extends React.Component {
+class Display extends React.Component {
 
     render = () => {
         let styleValue = this.props.state.value === this.props.state.maxValue ? style.valueMax : style.value;
@@ -13,4 +13,4 @@ class Count extends React.Component {
     }
 }
 
-export default Count;
+export default Display;
