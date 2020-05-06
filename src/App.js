@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './App.module.css';
 import Counter from "./Counter/Counter";
+import Setting from "./Setting/Setting";
 
 class App extends React.Component {
 
@@ -24,6 +25,7 @@ class App extends React.Component {
         return (
             <div className={style.app}>
                 <Counter state={this.state} reset={this.reset} increment={this.increment}/>
+                <Setting state={this.state} reset={this.reset} increment={this.increment}/>
             </div>
         )
     }
