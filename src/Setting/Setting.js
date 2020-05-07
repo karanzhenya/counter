@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Setting.module.css';
-import Button from "../Counter/Button/Button";
 import SettingDisplay from "./SettingDisplay";
+import SettingButton from "./SettingButton";
 
 class Setting extends React.Component {
 
@@ -9,7 +9,7 @@ class Setting extends React.Component {
         return (
             <div className={style.setting}>
                 <SettingDisplay state={this.props.state}/>
-                <Button reset={this.props.reset} increment={this.props.increment} state={this.props.state}/>
+                <SettingButton state={this.props.state}/>
             </div>
         )
     }

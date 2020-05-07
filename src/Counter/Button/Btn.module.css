@@ -1,0 +1,23 @@
+.button {
+    border: none;
+    border-radius: 15px;
+    background-color: deepskyblue;
+    color: darkslategrey;
+    width: 70px;
+    height: 40px;
+    font-size: large;
+    font-weight: 800;
+}
+
+.buttonMax {
+    border: none;
+    border-radius: 15px;
+    background-color: deepskyblue;
+    opacity: 0.8;
+    color: red;
+    width: 70px;
+    height: 40px;
+    font-size: large;
+    font-weight: 800;
+}
+
