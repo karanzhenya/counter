@@ -6,8 +6,8 @@ class Btn extends React.Component {
 
                 let inc = this.props.state.value === this.props.state.maxValue ? style.buttonMax : style.button;
                 let reset = this.props.state.value === 0 ? style.buttonMax : style.button;
-                let cl = this.props.name;
-                let classes = cl === "inc" ? inc : cl === "reset" ? reset : style.default;
+                let type = this.props.name;
+                let classes = type === "inc" ? inc : type === "reset" ? reset : style.button;
 
 
             return (
