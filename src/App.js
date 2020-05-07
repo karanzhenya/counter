@@ -25,7 +25,7 @@ class App extends React.Component {
         return (
             <div className={style.app}>
                 <Counter state={this.state} reset={this.reset} increment={this.increment}/>
-                <Setting state={this.state} reset={this.reset} increment={this.increment}/>
+                <Setting state={this.state}/>
             </div>
         )
     }

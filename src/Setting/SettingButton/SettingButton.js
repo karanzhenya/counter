@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './SettingButton.module.css';
-import Btn from "../Counter/Button/Btn";
+import Btn from "../../Counter/Button/Btn";
 
 class SettingButton extends React.Component {
 

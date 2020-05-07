@@ -20,4 +20,13 @@
     font-size: large;
     font-weight: 800;
 }
-
+.default {
+    border: none;
+    border-radius: 15px;
+    background-color: deepskyblue;
+    color: darkslategrey;
+    width: 70px;
+    height: 40px;
+    font-size: large;
+    font-weight: 800;
+}

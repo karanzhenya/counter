@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Setting.module.css';
-import SettingDisplay from "./SettingDisplay";
-import SettingButton from "./SettingButton";
+import SettingDisplay from "./SettingDisplay/SettingDisplay";
+import SettingButton from "./SettingButton/SettingButton";
 
 class Setting extends React.Component {
 
