@@ -7,7 +7,7 @@ class SettingButton extends React.Component {
     render = () => {
         return (
             <div className={style.settingButton}>
-                <Btn state={this.props.state} name={"set"}/>
+                <Btn function={this.props.setSetting} state={this.props.state} name={"set"}/>
             </div>
         )
     }
