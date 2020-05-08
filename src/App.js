@@ -20,12 +20,14 @@ class App extends React.Component {
             {value: this.state.value = 0}
         )
     };
+    startValue = (e) => {this.setState({value: e.currentTarget.value})};
+    maximumValue = (e) => {this.setState({maxValue: e.currentTarget.value})}
 
     render = () => {
         return (
             <div className={style.app}>
                 <Counter state={this.state} reset={this.reset} increment={this.increment}/>
-                <Setting state={this.state}/>
+                <Setting state={this.state} set={this.set} startValue={this.startValue} maximumValue={this.maximumValue}/>
             </div>
         )
     }

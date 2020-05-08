@@ -8,11 +8,11 @@ class SettingDisplay extends React.Component {
             <div className={style.settingDisplay}>
                <div className={style.input}>
                    <h2>max value:</h2>
-                   <input type="number"></input>
+                   <input onChange={this.props.maximumValue} type="number"></input>
                </div>
                 <div className={style.input}>
                     <h2>start value:</h2>
-                    <input type="number"></input>
+                    <input onChange={this.props.startValue} type="number"></input>
                 </div>
             </div>
         )
