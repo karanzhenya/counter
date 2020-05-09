@@ -8,8 +8,8 @@ class Setting extends React.Component {
     render = () => {
         return (
             <div className={style.setting}>
-                <SettingDisplay setSetting={this.props.setSetting} state={this.props.state} />
-                <SettingButton setSetting={this.props.setSetting} state={this.props.state}/>
+                <SettingDisplay changeMaxValue={this.props.changeMaxValue} changeStartValue={this.props.changeStartValue} state={this.props.state} />
+                <SettingButton changeMaxValue={this.props.changeMaxValue} changeSetting={this.props.changeSetting} state={this.props.state}/>
             </div>
         )
     }
