@@ -28,8 +28,9 @@ class App extends React.Component {
         this.setState({startValue: newStartValue})
     };
     changeSetting = () => {
-        this.setState(this.setState({value: this.state.startValue}))
+        this.setState({value: this.state.startValue})
     };
+
 
     render = () => {
         return (

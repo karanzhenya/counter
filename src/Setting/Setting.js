@@ -9,7 +9,7 @@ class Setting extends React.Component {
         return (
             <div className={style.setting}>
                 <SettingDisplay changeMaxValue={this.props.changeMaxValue} changeStartValue={this.props.changeStartValue} state={this.props.state} />
-                <SettingButton changeMaxValue={this.props.changeMaxValue} changeSetting={this.props.changeSetting} state={this.props.state}/>
+                <SettingButton changeSetting={this.props.changeSetting} state={this.props.state}/>
             </div>
         )
     }
